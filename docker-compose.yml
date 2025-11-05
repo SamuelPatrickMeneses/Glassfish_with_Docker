@@ -1,0 +1,10 @@
+services:
+  gf7:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /root
+    volumes:
+      - .:/root/glassfish7/
+    ports:
+      - 80:8080
