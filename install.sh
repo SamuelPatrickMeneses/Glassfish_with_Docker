@@ -14,7 +14,7 @@ rm -rf $NEOVIM_HOME
 mkdir -p $NEOVIM_CONFIG
 mkdir $NEOVIM_HOME
 chmod -R 777 $NEOVIM_HOME $NEOVIM_CONFIG
-cp -r ./init.vim ./install.sh ./coc-settings.json $NEOVIM_CONFIG 
+cp -r ./init.vim ./install.sh ./coc-settings.json ./.my_nvimrc $NEOVIM_CONFIG 
 
 #install node
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
